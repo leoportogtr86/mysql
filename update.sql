@@ -1,0 +1,1 @@
+update guitarras set preco = 7000 where preco = 1200;
