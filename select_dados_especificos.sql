@@ -1,0 +1,1 @@
+select nome, email from pessoas;
