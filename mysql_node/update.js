@@ -25,7 +25,9 @@ connection.connect((err) => {
     }
 })
 
+//desta vez precisamos passar um array com os dados a serem atualizados
 
+//quem tiver o nome "Davi" passara a ter o nome "Juquinha"
 let pessoa = ['Juquinha', 'Davi']
 
 let sql = `update pessoas set nome = ? where nome = ?`
