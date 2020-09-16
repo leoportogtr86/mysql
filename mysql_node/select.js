@@ -37,12 +37,6 @@ connection.query(sql, (err, res) => {
 
 })
 
-
-
-
-
-
-
 //finalizando a conexao
 
 connection.end((err) => {
