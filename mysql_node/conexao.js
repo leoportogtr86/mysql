@@ -11,6 +11,9 @@ const connection = mysql.createConnection({
     database: 'cadastro'
 })
 
+
+//iniciando uma conexao
+
 connection.connect((err) => {
 
     if (err) {
@@ -20,4 +23,28 @@ connection.connect((err) => {
 
         console.log('conexão estabelecida')
     }
+})
+
+
+//aqui entrara as tarefas de CRUD do mysql
+
+
+
+
+
+
+
+//finalizando a conexao
+
+connection.end((err) => {
+
+    if (err) {
+
+        console.log(err)
+    } else {
+
+        console.log('conexão finalizada')
+    }
+
+
 })
