@@ -7,11 +7,16 @@ const connection = mysql.createConnection({
 
     host: 'localhost',
     user: 'root',
-    password: 'senha',
+    password: '151187',
     database: 'cadastro'
 })
 
-connection.query('select nome, idade from pessoas', (err, res) => {
+
+let sql = `insert into pessoas (nome, idade, altura) values ("Davi", 4, 1.50)`
+
+connection.query(sql, (err, res) => {
+
+
 
     console.log(res)
 })
