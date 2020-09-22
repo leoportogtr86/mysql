@@ -12,5 +12,10 @@ select * from produto where nome = "guitarra";
 select nome, preco from produto where nome = "violao";
 
 
+/*agora vamos fazer uma busca por aproximacao usando o caracter coringa (%)*/
+/*vai trazer um produto com nome parecido com "gui" e o % substitui algo que vier depois*/
+select * from produto where nome like "gui%"
+
+
 
 
