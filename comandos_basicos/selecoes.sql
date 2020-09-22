@@ -8,3 +8,9 @@ select * from produto;
 
 select * from produto where nome = "guitarra";
 
+/*trazendo agora apenas as colunas de nome e preco do produto de nome violao*/
+select nome, preco from produto where nome = "violao";
+
+
+
+
