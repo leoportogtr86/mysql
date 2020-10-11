@@ -7,3 +7,5 @@ const con = new Sequelize('banco_teste', 'root', '151187', {
     dialect: 'mysql'
 
 })
+
+module.exports = con
