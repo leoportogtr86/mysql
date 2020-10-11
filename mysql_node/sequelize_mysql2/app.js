@@ -43,11 +43,16 @@ Pessoa.sync({ force: false }).then(() => {
 
 Pessoa.create({
 
-    nome: 'Leo Porto',
-    idade: 34,
-    profissao: 'músico e dev'
+    nome: 'Chris Porto',
+    idade: 32,
+    profissao: 'fono'
 
 }).then(() => {
 
     console.log('dados salvos')
+})
+
+Pessoa.findAll({ raw: true }).then((data) => {
+
+    console.log(data)
 })
