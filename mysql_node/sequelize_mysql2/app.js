@@ -40,3 +40,14 @@ Pessoa.sync({ force: false }).then(() => {
 
     console.log('tabela criada.')
 })
+
+Pessoa.create({
+
+    nome: 'Leo Porto',
+    idade: 34,
+    profissao: 'músico e dev'
+
+}).then(() => {
+
+    console.log('dados salvos')
+})
