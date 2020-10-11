@@ -1,3 +1,3 @@
-const db = require('./db/db')
+const con = require('./db/db')
 
 
