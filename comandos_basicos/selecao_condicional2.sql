@@ -1,0 +1,1 @@
+select * from guitarras where marca = "gibson" or marca = "fender";
